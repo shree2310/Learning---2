@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+</head>
+<style>
+    .container {
+        background-color: greenyellow;
+    }
+
+    .box {
+        background-color: green;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: Shree;
+        animation-duration: 0.7s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes Shree {
+        form {
+            width: 200px;
+        }
+
+        to {
+            width: 400px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is a Box
+        </div>
+    </div>
+</body>
+
+</html>

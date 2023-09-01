@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart New Website</title>
+    <style>
+        /* .container {
+            height: 10px;
+            width: 90px;
+            display: flex
+        }
+
+        .box1 {
+
+            height: 190px;
+            width: 215px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border-top-width: 1px;
+            border-bottom-width: 0px;
+            border-bottom-style: solid;
+            margin-top: -3px;
+            margin-left: 224px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+
+        .sub-container {
+            margin-top: -103px;
+            margin-left: 254px;
+            margin-right: 414px;
+            margin-bottom: -20px;
+            padding-left: 9px;
+            padding-right: 12px;
+           
+            border-bottom-width: 0px;
+            border-bottom-style: solid;
+            height: 15.167px;
+            width: 229px;
+
+
+        }
+
+
+
+        input[type="text"] {
+  
+            box-sizing: border-box;
+            border-radius: 5%;
+            padding-left: 0px;
+            padding-right: 4px;
+            border-bottom-style: solid;
+            border-right-width: 1.667px;
+            border-right-style: solid;
+            padding-top: 9px;
+            padding-left: 12px;
+            margin-top: 10px;
+            margin-bottom: 14px;
+            height: 10vh;
+            width: 200vw;
+            font-size: medium;
+            font-style: oblique;
+            font-weight: 100;
+
+        }
+
+        .sub-container1 {
+            display: flex;
+            height: 70px;
+            width: 70px;
+            padding-top: 28px;
+            border-left-width: 0px;
+            border-left-style: solid;
+            padding-left: 0px;
+            margin-top: 37px;
+
+        }
+
+        .sub-container2 {
+            position: relative;
+            margin-top: 30px;
+            height: 50px;
+            width: 50px;
+            margin-left: 280px;
+            margin-bottom: 0px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            margin-right: 0px;
+            margin-top: 35px;
+        }
+
+        .sub-container3 {
+            position: relative;
+            margin-top: 30px;
+            height: 50px;
+            width: 50px;
+            margin-left: 280px;
+            margin-bottom: 0px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            margin-right: 0px;
+            margin-top: 35px;
+        } */
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+
+        }
+
+        .nav-logo img {
+            height: 30px;
+
+        }
+
+        .nav-search {
+            height: 30px;
+            background-color: #f0f5ff;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .nav-search img {
+            height: 30px;
+
+        }
+
+        .nav-search input {
+            height: 50PX;
+            width: 500px;
+            padding: 0px 10px;
+            background-color: transparent;
+            border: 0;
+            font-size: larger;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+            ;
+        }
+
+        .nav-store {
+            display: flex;
+            align-items: center;
+            font-size: x-large;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+            ;
+
+
+        }
+
+        .nav-store img {
+            height: 50px;
+
+        }
+
+        .nav-sign-in {
+            display: flex;
+            align-items: center;
+            font-size: x-large;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+
+        }
+
+        .nav-sign-in img {
+            height: 50px;
+        }
+
+        .nav-cart {
+            display: flex;
+            align-items: center;
+            font-size: x-large;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+        }
+
+        .nav-cart img {
+            height: 50px;
+        }
+
+        .nav-dots img {
+            height: 30px;
+            width: 40px;
+        }
+
+        .header-container {
+            padding-top: 10px;
+            width: 100%;
+            min-height: 40px;
+            background: hsla(60, 100%, 97%, 0.922) url(../images/bg.png) no-repeat top left / cover;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-between;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-content: space-between;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            flex-direction: row;
+            align-items: flex-end;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-logo">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg"
+                alt="Flipkart">
+        </div>
+        <div class="nav-search">
+            <img src="search.png" alt="search">
+            <input type="search" placeholder="Search for Brands and More ">
+        </div>
+        <div class="nav-store">
+            <img src="Store-9eeae2.svg" alt="Become A Seller"><span>Become a Seller</span>
+        </div>
+        <div class="nav-sign-in">
+            <img src="sign in.png" alt="Sign in"><span>Sign in</span>
+        </div>
+        <div class="nav-cart">
+            <img src="cart.png" alt="Cart"><span>Cart</span>
+        </div>
+        <div class="nav-dots">
+            <img src="dots.png" alt="Dots">
+        </div>
+    </div><br>
+
+    <div class="header-container">
+        <img src="https://rukminim1.flixcart.com/flap/96/96/image/29327f40e9c4d26b.png?q=100" alt="Grocery"
+            width="100px" height="120px"><span>Grocery</span><br>
+        <img src="mobile.png" alt="mobiles" width="100px" height="120px"><span>Mobiles</span>
+        <img src="fashion.png" alt="Fashion" width="100px" height="120px"><span>Fashion</span>
+        <img src="electronics.png" alt="Electronics" width="130px" height="100px"><span>Electronics</span>
+        <img src="furniture.png" alt="Furnitures" width="90px" height="100px"><span>Furnitures</span>
+        <img src="https://rukminim1.flixcart.com/flap/96/96/image/0ff199d1bd27eb98.png?q=100" alt="Appliances"
+            width="100px" height="100px"><span>Appliances</span>
+        <img src="https://rukminim1.flixcart.com/flap/96/96/image/71050627a56b4693.png?q=100" alt="Travels" width="100px"
+            height="100px"><span>Travel</span>
+            
+    </div>
+    </div>
+    </div>
+
+</html>

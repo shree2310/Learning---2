@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: url('https://c4.wallpaperflare.com/wallpaper/548/96/1005/sea-sunset-boat-purple-sky-wallpaper-preview.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            margin: 0;
+
+
+
+
+            height: 100vh;
+            /* padding: 10px 30px; */
+            margin: 0px auto;
+            display: flex;
+            /* text-align: center; */
+            /* text-align: left; */
+            /* backdrop-filter: 30px; */
+            /* inline-size: 60px; */
+
+        }
+
+        input[type="text"]::placeholder {
+            color: white;
+            font-size: large;
+            /* flex-direction: column; */
+
+
+        }
+
+
+
+        .sub-container {
+            /* padding: 220px; */
+            display: flex;
+            flex-direction: column;
+
+            height: 100%;
+            width: 100%;
+            /* flex-wrap: wrap; */
+            justify-content: space-between;
+            align-items: center;
+            text-align: left center;
+            font-style: initial;
+            /* background: yellow; */
+            /* border: 2px solid red; */
+        }
+
+        .header {
+            font-size: x-large;
+
+        }
+
+        .left-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            margin-top: 50px;
+            
+
+        }
+
+        input[type="text"] {
+            background: transparent;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            /* width: 150px; */
+        }
+
+        input[type="text"]::placeholder {
+            color: white;
+            font-size: large;
+            /* width: 150px; */
+
+
+
+        }
+
+
+        .human-logo {
+            /* display: flex; */
+            width: 50px;
+            height: 50px;
+            /* Height added to visualize the logo */
+            border-radius: 50%;
+            /* margin-right: 100px 6000px; */
+        }
+
+        .profile-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .profile-contain {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90px;
+            width: 490px;
+            justify-content: space-around;
+
+        }
+
+        #left-container{
+            font-size: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="sub-container header">
+            <div class="logo-container">
+                <image src="./camera.png" alt="Camera" width="50px"></image>
+                <span>Radiance</span>
+            </div>
+            <div>
+                <h2 id="left-container">HTML & CSS</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Harum neque, exercitationem quae voluptatum</p><br>
+
+                <input type="text" placeholder="search" />
+                <!-- <button type="button">Submit</button> -->
+            </div>
+            <div></div>
+        </div>
+
+
+
+        <div class="sub-container ">
+            <div class="profile-section"><br>
+                <div></div>
+                <div class="profile-contain">
+                    <input type="text" placeholder="Explore" />
+
+                    <img src="person-icon-circle-png-transparent.png" class="human-logo" />
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
